@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76E9CF6F16B1409F00CA7A86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E9CF6E16B1409F00CA7A86 /* UIKit.framework */; };
+		76E9CF7116B1409F00CA7A86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E9CF7016B1409F00CA7A86 /* Foundation.framework */; };
+		76E9CF7316B1409F00CA7A86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E9CF7216B1409F00CA7A86 /* CoreGraphics.framework */; };
+		76E9CF7916B1409F00CA7A86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76E9CF7716B1409F00CA7A86 /* InfoPlist.strings */; };
+		76E9CF7B16B1409F00CA7A86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E9CF7A16B1409F00CA7A86 /* main.m */; };
+		76E9CF7F16B1409F00CA7A86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E9CF7E16B1409F00CA7A86 /* AppDelegate.m */; };
+		76E9CF8116B1409F00CA7A86 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E9CF8016B1409F00CA7A86 /* Default.png */; };
+		76E9CF8316B1409F00CA7A86 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E9CF8216B1409F00CA7A86 /* Default@2x.png */; };
+		76E9CF8516B1409F00CA7A86 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E9CF8416B1409F00CA7A86 /* Default-568h@2x.png */; };
+		76E9CF8816B1409F00CA7A86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E9CF8716B1409F00CA7A86 /* ViewController.m */; };
+		76E9CF8B16B1409F00CA7A86 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E9CF8916B1409F00CA7A86 /* ViewController.xib */; };
+		76E9CF9416B1414B00CA7A86 /* BG1.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E9CF9316B1414B00CA7A86 /* BG1.png */; };
+		76E9CFA016B1421800CA7A86 /* PlanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E9CF9A16B141D200CA7A86 /* PlanningViewController.m */; };
+		76E9CFA116B1421E00CA7A86 /* PlanningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E9CF9B16B141D200CA7A86 /* PlanningViewController.xib */; };
+		76E9CFA316B1490900CA7A86 /* icon_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E9CFA216B1490900CA7A86 /* icon_05.png */; };
+		76E9CFA516B1490F00CA7A86 /* logoretina_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E9CFA416B1490F00CA7A86 /* logoretina_05.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76E9CF6A16B1409F00CA7A86 /* EventPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E9CF6E16B1409F00CA7A86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76E9CF7016B1409F00CA7A86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76E9CF7216B1409F00CA7A86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76E9CF7616B1409F00CA7A86 /* EventPlanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EventPlanner-Info.plist"; sourceTree = "<group>"; };
+		76E9CF7816B1409F00CA7A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76E9CF7A16B1409F00CA7A86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76E9CF7C16B1409F00CA7A86 /* EventPlanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EventPlanner-Prefix.pch"; sourceTree = "<group>"; };
+		76E9CF7D16B1409F00CA7A86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76E9CF7E16B1409F00CA7A86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76E9CF8016B1409F00CA7A86 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		76E9CF8216B1409F00CA7A86 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		76E9CF8416B1409F00CA7A86 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		76E9CF8616B1409F00CA7A86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76E9CF8716B1409F00CA7A86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76E9CF8A16B1409F00CA7A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		76E9CF9316B1414B00CA7A86 /* BG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG1.png; sourceTree = "<group>"; };
+		76E9CF9916B141D200CA7A86 /* PlanningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanningViewController.h; sourceTree = "<group>"; };
+		76E9CF9A16B141D200CA7A86 /* PlanningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanningViewController.m; sourceTree = "<group>"; };
+		76E9CF9B16B141D200CA7A86 /* PlanningViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanningViewController.xib; sourceTree = "<group>"; };
+		76E9CFA216B1490900CA7A86 /* icon_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_05.png; sourceTree = "<group>"; };
+		76E9CFA416B1490F00CA7A86 /* logoretina_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoretina_05.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76E9CF6716B1409F00CA7A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E9CF6F16B1409F00CA7A86 /* UIKit.framework in Frameworks */,
+				76E9CF7116B1409F00CA7A86 /* Foundation.framework in Frameworks */,
+				76E9CF7316B1409F00CA7A86 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76E9CF5F16B1409F00CA7A86 = {
+			isa = PBXGroup;
+			children = (
+				76E9CFA416B1490F00CA7A86 /* logoretina_05.png */,
+				76E9CFA216B1490900CA7A86 /* icon_05.png */,
+				76E9CF9316B1414B00CA7A86 /* BG1.png */,
+				76E9CF7416B1409F00CA7A86 /* EventPlanner */,
+				76E9CF6D16B1409F00CA7A86 /* Frameworks */,
+				76E9CF6B16B1409F00CA7A86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76E9CF6B16B1409F00CA7A86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76E9CF6A16B1409F00CA7A86 /* EventPlanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76E9CF6D16B1409F00CA7A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76E9CF6E16B1409F00CA7A86 /* UIKit.framework */,
+				76E9CF7016B1409F00CA7A86 /* Foundation.framework */,
+				76E9CF7216B1409F00CA7A86 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76E9CF7416B1409F00CA7A86 /* EventPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				76E9CF7D16B1409F00CA7A86 /* AppDelegate.h */,
+				76E9CF7E16B1409F00CA7A86 /* AppDelegate.m */,
+				76E9CF8616B1409F00CA7A86 /* ViewController.h */,
+				76E9CF8716B1409F00CA7A86 /* ViewController.m */,
+				76E9CF8916B1409F00CA7A86 /* ViewController.xib */,
+				76E9CF9916B141D200CA7A86 /* PlanningViewController.h */,
+				76E9CF9A16B141D200CA7A86 /* PlanningViewController.m */,
+				76E9CF9B16B141D200CA7A86 /* PlanningViewController.xib */,
+				76E9CF7516B1409F00CA7A86 /* Supporting Files */,
+			);
+			path = EventPlanner;
+			sourceTree = "<group>";
+		};
+		76E9CF7516B1409F00CA7A86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76E9CF7616B1409F00CA7A86 /* EventPlanner-Info.plist */,
+				76E9CF7716B1409F00CA7A86 /* InfoPlist.strings */,
+				76E9CF7A16B1409F00CA7A86 /* main.m */,
+				76E9CF7C16B1409F00CA7A86 /* EventPlanner-Prefix.pch */,
+				76E9CF8016B1409F00CA7A86 /* Default.png */,
+				76E9CF8216B1409F00CA7A86 /* Default@2x.png */,
+				76E9CF8416B1409F00CA7A86 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76E9CF6916B1409F00CA7A86 /* EventPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E9CF8E16B1409F00CA7A86 /* Build configuration list for PBXNativeTarget "EventPlanner" */;
+			buildPhases = (
+				76E9CF6616B1409F00CA7A86 /* Sources */,
+				76E9CF6716B1409F00CA7A86 /* Frameworks */,
+				76E9CF6816B1409F00CA7A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventPlanner;
+			productName = EventPlanner;
+			productReference = 76E9CF6A16B1409F00CA7A86 /* EventPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76E9CF6116B1409F00CA7A86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alex Behannon";
+			};
+			buildConfigurationList = 76E9CF6416B1409F00CA7A86 /* Build configuration list for PBXProject "EventPlanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76E9CF5F16B1409F00CA7A86;
+			productRefGroup = 76E9CF6B16B1409F00CA7A86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76E9CF6916B1409F00CA7A86 /* EventPlanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76E9CF6816B1409F00CA7A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E9CF7916B1409F00CA7A86 /* InfoPlist.strings in Resources */,
+				76E9CF8116B1409F00CA7A86 /* Default.png in Resources */,
+				76E9CF8316B1409F00CA7A86 /* Default@2x.png in Resources */,
+				76E9CF8516B1409F00CA7A86 /* Default-568h@2x.png in Resources */,
+				76E9CF8B16B1409F00CA7A86 /* ViewController.xib in Resources */,
+				76E9CF9416B1414B00CA7A86 /* BG1.png in Resources */,
+				76E9CFA116B1421E00CA7A86 /* PlanningViewController.xib in Resources */,
+				76E9CFA316B1490900CA7A86 /* icon_05.png in Resources */,
+				76E9CFA516B1490F00CA7A86 /* logoretina_05.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76E9CF6616B1409F00CA7A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E9CF7B16B1409F00CA7A86 /* main.m in Sources */,
+				76E9CF7F16B1409F00CA7A86 /* AppDelegate.m in Sources */,
+				76E9CF8816B1409F00CA7A86 /* ViewController.m in Sources */,
+				76E9CFA016B1421800CA7A86 /* PlanningViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76E9CF7716B1409F00CA7A86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76E9CF7816B1409F00CA7A86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76E9CF8916B1409F00CA7A86 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76E9CF8A16B1409F00CA7A86 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76E9CF8C16B1409F00CA7A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76E9CF8D16B1409F00CA7A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76E9CF8F16B1409F00CA7A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventPlanner/EventPlanner-Prefix.pch";
+				INFOPLIST_FILE = "EventPlanner/EventPlanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		76E9CF9016B1409F00CA7A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventPlanner/EventPlanner-Prefix.pch";
+				INFOPLIST_FILE = "EventPlanner/EventPlanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76E9CF6416B1409F00CA7A86 /* Build configuration list for PBXProject "EventPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E9CF8C16B1409F00CA7A86 /* Debug */,
+				76E9CF8D16B1409F00CA7A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E9CF8E16B1409F00CA7A86 /* Build configuration list for PBXNativeTarget "EventPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E9CF8F16B1409F00CA7A86 /* Debug */,
+				76E9CF9016B1409F00CA7A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76E9CF6116B1409F00CA7A86 /* Project object */;
+}
