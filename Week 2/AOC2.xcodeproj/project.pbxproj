@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		767DB27016C5CF1C009FD3E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767DB26F16C5CF1C009FD3E1 /* UIKit.framework */; };
+		767DB27216C5CF1C009FD3E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767DB27116C5CF1C009FD3E1 /* Foundation.framework */; };
+		767DB27416C5CF1C009FD3E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767DB27316C5CF1C009FD3E1 /* CoreGraphics.framework */; };
+		767DB27A16C5CF1C009FD3E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 767DB27816C5CF1C009FD3E1 /* InfoPlist.strings */; };
+		767DB27C16C5CF1C009FD3E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 767DB27B16C5CF1C009FD3E1 /* main.m */; };
+		767DB28016C5CF1C009FD3E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 767DB27F16C5CF1C009FD3E1 /* AppDelegate.m */; };
+		767DB28216C5CF1C009FD3E1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 767DB28116C5CF1C009FD3E1 /* Default.png */; };
+		767DB28416C5CF1C009FD3E1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 767DB28316C5CF1C009FD3E1 /* Default@2x.png */; };
+		767DB28616C5CF1C009FD3E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 767DB28516C5CF1C009FD3E1 /* Default-568h@2x.png */; };
+		767DB28916C5CF1C009FD3E1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767DB28716C5CF1C009FD3E1 /* MainStoryboard.storyboard */; };
+		767DB2AA16C5D0B7009FD3E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767DB2A916C5D0B7009FD3E1 /* ViewController.m */; };
+		769BC2F116CCC80D002B8E57 /* BG1.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC2ED16CCC80D002B8E57 /* BG1.png */; };
+		769BC2FF16CCC86A002B8E57 /* pistolWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 769BC2F616CCC825002B8E57 /* pistolWeapon.m */; };
+		769BC30016CCC86F002B8E57 /* rifleWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 769BC2F816CCC825002B8E57 /* rifleWeapon.m */; };
+		769BC30116CCC871002B8E57 /* shotgunWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 769BC2FA16CCC825002B8E57 /* shotgunWeapon.m */; };
+		769BC30216CCC873002B8E57 /* weaponBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 769BC2FC16CCC825002B8E57 /* weaponBase.m */; };
+		769BC30316CCC876002B8E57 /* weaponFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 769BC2FE16CCC838002B8E57 /* weaponFactory.m */; };
+		769BC31516CCFFED002B8E57 /* Calculate1.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC30916CCFFED002B8E57 /* Calculate1.png */; };
+		769BC31616CCFFED002B8E57 /* Calculate2.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC30A16CCFFED002B8E57 /* Calculate2.png */; };
+		769BC31716CCFFED002B8E57 /* Calculate3.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC30B16CCFFED002B8E57 /* Calculate3.png */; };
+		769BC31816CCFFED002B8E57 /* Pistol1.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC30C16CCFFED002B8E57 /* Pistol1.png */; };
+		769BC31916CCFFED002B8E57 /* Pistol2.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC30D16CCFFED002B8E57 /* Pistol2.png */; };
+		769BC31A16CCFFED002B8E57 /* Pistol3.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC30E16CCFFED002B8E57 /* Pistol3.png */; };
+		769BC31B16CCFFED002B8E57 /* Rifle1.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC30F16CCFFED002B8E57 /* Rifle1.png */; };
+		769BC31C16CCFFED002B8E57 /* Rifle2.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC31016CCFFED002B8E57 /* Rifle2.png */; };
+		769BC31D16CCFFED002B8E57 /* Rifle3.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC31116CCFFED002B8E57 /* Rifle3.png */; };
+		769BC31E16CCFFED002B8E57 /* Shotgun1.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC31216CCFFED002B8E57 /* Shotgun1.png */; };
+		769BC31F16CCFFED002B8E57 /* Shotgun2.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC31316CCFFED002B8E57 /* Shotgun2.png */; };
+		769BC32016CCFFED002B8E57 /* Shotgun3.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC31416CCFFED002B8E57 /* Shotgun3.png */; };
+		769BC32416CD0259002B8E57 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769BC32216CD0259002B8E57 /* SecondViewController.m */; };
+		769BC32516CD0259002B8E57 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769BC32316CD0259002B8E57 /* SecondViewController.xib */; };
+		769BC32716CD04C6002B8E57 /* XB.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC32616CD04C6002B8E57 /* XB.png */; };
+		769BC32916CD04CE002B8E57 /* IB.png in Resources */ = {isa = PBXBuildFile; fileRef = 769BC32816CD04CE002B8E57 /* IB.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		767DB26B16C5CF1C009FD3E1 /* AOC2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOC2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		767DB26F16C5CF1C009FD3E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		767DB27116C5CF1C009FD3E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		767DB27316C5CF1C009FD3E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		767DB27716C5CF1C009FD3E1 /* AOC2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AOC2-Info.plist"; sourceTree = "<group>"; };
+		767DB27916C5CF1C009FD3E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		767DB27B16C5CF1C009FD3E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		767DB27D16C5CF1C009FD3E1 /* AOC2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AOC2-Prefix.pch"; sourceTree = "<group>"; };
+		767DB27E16C5CF1C009FD3E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		767DB27F16C5CF1C009FD3E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		767DB28116C5CF1C009FD3E1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		767DB28316C5CF1C009FD3E1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		767DB28516C5CF1C009FD3E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		767DB28816C5CF1C009FD3E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		767DB2A816C5D0B7009FD3E1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		767DB2A916C5D0B7009FD3E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		769BC2ED16CCC80D002B8E57 /* BG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BG1.png; path = AOC2/Resources/BG1.png; sourceTree = "<group>"; };
+		769BC2F516CCC825002B8E57 /* pistolWeapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pistolWeapon.h; path = AOC2/Weapons/pistolWeapon.h; sourceTree = "<group>"; };
+		769BC2F616CCC825002B8E57 /* pistolWeapon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = pistolWeapon.m; path = AOC2/Weapons/pistolWeapon.m; sourceTree = "<group>"; };
+		769BC2F716CCC825002B8E57 /* rifleWeapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rifleWeapon.h; path = AOC2/Weapons/rifleWeapon.h; sourceTree = "<group>"; };
+		769BC2F816CCC825002B8E57 /* rifleWeapon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = rifleWeapon.m; path = AOC2/Weapons/rifleWeapon.m; sourceTree = "<group>"; };
+		769BC2F916CCC825002B8E57 /* shotgunWeapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = shotgunWeapon.h; path = AOC2/Weapons/shotgunWeapon.h; sourceTree = "<group>"; };
+		769BC2FA16CCC825002B8E57 /* shotgunWeapon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = shotgunWeapon.m; path = AOC2/Weapons/shotgunWeapon.m; sourceTree = "<group>"; };
+		769BC2FB16CCC825002B8E57 /* weaponBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = weaponBase.h; path = AOC2/Weapons/weaponBase.h; sourceTree = "<group>"; };
+		769BC2FC16CCC825002B8E57 /* weaponBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = weaponBase.m; path = AOC2/Weapons/weaponBase.m; sourceTree = "<group>"; };
+		769BC2FD16CCC838002B8E57 /* weaponFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = weaponFactory.h; path = AOC2/Factory/weaponFactory.h; sourceTree = "<group>"; };
+		769BC2FE16CCC838002B8E57 /* weaponFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = weaponFactory.m; path = AOC2/Factory/weaponFactory.m; sourceTree = "<group>"; };
+		769BC30916CCFFED002B8E57 /* Calculate1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Calculate1.png; path = AOC2/Resources/Buttons/Calculate1.png; sourceTree = "<group>"; };
+		769BC30A16CCFFED002B8E57 /* Calculate2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Calculate2.png; path = AOC2/Resources/Buttons/Calculate2.png; sourceTree = "<group>"; };
+		769BC30B16CCFFED002B8E57 /* Calculate3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Calculate3.png; path = AOC2/Resources/Buttons/Calculate3.png; sourceTree = "<group>"; };
+		769BC30C16CCFFED002B8E57 /* Pistol1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pistol1.png; path = AOC2/Resources/Buttons/Pistol1.png; sourceTree = "<group>"; };
+		769BC30D16CCFFED002B8E57 /* Pistol2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pistol2.png; path = AOC2/Resources/Buttons/Pistol2.png; sourceTree = "<group>"; };
+		769BC30E16CCFFED002B8E57 /* Pistol3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pistol3.png; path = AOC2/Resources/Buttons/Pistol3.png; sourceTree = "<group>"; };
+		769BC30F16CCFFED002B8E57 /* Rifle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rifle1.png; path = AOC2/Resources/Buttons/Rifle1.png; sourceTree = "<group>"; };
+		769BC31016CCFFED002B8E57 /* Rifle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rifle2.png; path = AOC2/Resources/Buttons/Rifle2.png; sourceTree = "<group>"; };
+		769BC31116CCFFED002B8E57 /* Rifle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rifle3.png; path = AOC2/Resources/Buttons/Rifle3.png; sourceTree = "<group>"; };
+		769BC31216CCFFED002B8E57 /* Shotgun1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shotgun1.png; path = AOC2/Resources/Buttons/Shotgun1.png; sourceTree = "<group>"; };
+		769BC31316CCFFED002B8E57 /* Shotgun2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shotgun2.png; path = AOC2/Resources/Buttons/Shotgun2.png; sourceTree = "<group>"; };
+		769BC31416CCFFED002B8E57 /* Shotgun3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shotgun3.png; path = AOC2/Resources/Buttons/Shotgun3.png; sourceTree = "<group>"; };
+		769BC32116CD0259002B8E57 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		769BC32216CD0259002B8E57 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		769BC32316CD0259002B8E57 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		769BC32616CD04C6002B8E57 /* XB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = XB.png; path = AOC2/Resources/Buttons/XB.png; sourceTree = "<group>"; };
+		769BC32816CD04CE002B8E57 /* IB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IB.png; path = AOC2/Resources/Buttons/IB.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		767DB26816C5CF1C009FD3E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767DB27016C5CF1C009FD3E1 /* UIKit.framework in Frameworks */,
+				767DB27216C5CF1C009FD3E1 /* Foundation.framework in Frameworks */,
+				767DB27416C5CF1C009FD3E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		767DB26016C5CF1C009FD3E1 = {
+			isa = PBXGroup;
+			children = (
+				769BC2EB16CCC7F1002B8E57 /* Resources */,
+				767DB29816C5D05E009FD3E1 /* Weapons */,
+				767DB29716C5D057009FD3E1 /* Factory */,
+				767DB27516C5CF1C009FD3E1 /* AOC2 */,
+				767DB26E16C5CF1C009FD3E1 /* Frameworks */,
+				767DB26C16C5CF1C009FD3E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		767DB26C16C5CF1C009FD3E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				767DB26B16C5CF1C009FD3E1 /* AOC2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		767DB26E16C5CF1C009FD3E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				767DB26F16C5CF1C009FD3E1 /* UIKit.framework */,
+				767DB27116C5CF1C009FD3E1 /* Foundation.framework */,
+				767DB27316C5CF1C009FD3E1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		767DB27516C5CF1C009FD3E1 /* AOC2 */ = {
+			isa = PBXGroup;
+			children = (
+				767DB27E16C5CF1C009FD3E1 /* AppDelegate.h */,
+				767DB27F16C5CF1C009FD3E1 /* AppDelegate.m */,
+				767DB2A816C5D0B7009FD3E1 /* ViewController.h */,
+				767DB2A916C5D0B7009FD3E1 /* ViewController.m */,
+				767DB28716C5CF1C009FD3E1 /* MainStoryboard.storyboard */,
+				769BC32116CD0259002B8E57 /* SecondViewController.h */,
+				769BC32216CD0259002B8E57 /* SecondViewController.m */,
+				769BC32316CD0259002B8E57 /* SecondViewController.xib */,
+				767DB27616C5CF1C009FD3E1 /* Supporting Files */,
+			);
+			path = AOC2;
+			sourceTree = "<group>";
+		};
+		767DB27616C5CF1C009FD3E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				767DB27716C5CF1C009FD3E1 /* AOC2-Info.plist */,
+				767DB27816C5CF1C009FD3E1 /* InfoPlist.strings */,
+				767DB27B16C5CF1C009FD3E1 /* main.m */,
+				767DB27D16C5CF1C009FD3E1 /* AOC2-Prefix.pch */,
+				767DB28116C5CF1C009FD3E1 /* Default.png */,
+				767DB28316C5CF1C009FD3E1 /* Default@2x.png */,
+				767DB28516C5CF1C009FD3E1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		767DB29716C5D057009FD3E1 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				769BC2FD16CCC838002B8E57 /* weaponFactory.h */,
+				769BC2FE16CCC838002B8E57 /* weaponFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		767DB29816C5D05E009FD3E1 /* Weapons */ = {
+			isa = PBXGroup;
+			children = (
+				769BC2F516CCC825002B8E57 /* pistolWeapon.h */,
+				769BC2F616CCC825002B8E57 /* pistolWeapon.m */,
+				769BC2F716CCC825002B8E57 /* rifleWeapon.h */,
+				769BC2F816CCC825002B8E57 /* rifleWeapon.m */,
+				769BC2F916CCC825002B8E57 /* shotgunWeapon.h */,
+				769BC2FA16CCC825002B8E57 /* shotgunWeapon.m */,
+				769BC2FB16CCC825002B8E57 /* weaponBase.h */,
+				769BC2FC16CCC825002B8E57 /* weaponBase.m */,
+			);
+			name = Weapons;
+			sourceTree = "<group>";
+		};
+		769BC2EB16CCC7F1002B8E57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				769BC30816CCFFDD002B8E57 /* Buttons */,
+				769BC2ED16CCC80D002B8E57 /* BG1.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		769BC30816CCFFDD002B8E57 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				769BC32816CD04CE002B8E57 /* IB.png */,
+				769BC32616CD04C6002B8E57 /* XB.png */,
+				769BC30916CCFFED002B8E57 /* Calculate1.png */,
+				769BC30A16CCFFED002B8E57 /* Calculate2.png */,
+				769BC30B16CCFFED002B8E57 /* Calculate3.png */,
+				769BC30C16CCFFED002B8E57 /* Pistol1.png */,
+				769BC30D16CCFFED002B8E57 /* Pistol2.png */,
+				769BC30E16CCFFED002B8E57 /* Pistol3.png */,
+				769BC30F16CCFFED002B8E57 /* Rifle1.png */,
+				769BC31016CCFFED002B8E57 /* Rifle2.png */,
+				769BC31116CCFFED002B8E57 /* Rifle3.png */,
+				769BC31216CCFFED002B8E57 /* Shotgun1.png */,
+				769BC31316CCFFED002B8E57 /* Shotgun2.png */,
+				769BC31416CCFFED002B8E57 /* Shotgun3.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		767DB26A16C5CF1C009FD3E1 /* AOC2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767DB28F16C5CF1C009FD3E1 /* Build configuration list for PBXNativeTarget "AOC2" */;
+			buildPhases = (
+				767DB26716C5CF1C009FD3E1 /* Sources */,
+				767DB26816C5CF1C009FD3E1 /* Frameworks */,
+				767DB26916C5CF1C009FD3E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AOC2;
+			productName = AOC2;
+			productReference = 767DB26B16C5CF1C009FD3E1 /* AOC2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		767DB26216C5CF1C009FD3E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alex Behannon";
+			};
+			buildConfigurationList = 767DB26516C5CF1C009FD3E1 /* Build configuration list for PBXProject "AOC2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 767DB26016C5CF1C009FD3E1;
+			productRefGroup = 767DB26C16C5CF1C009FD3E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				767DB26A16C5CF1C009FD3E1 /* AOC2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		767DB26916C5CF1C009FD3E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767DB27A16C5CF1C009FD3E1 /* InfoPlist.strings in Resources */,
+				767DB28216C5CF1C009FD3E1 /* Default.png in Resources */,
+				767DB28416C5CF1C009FD3E1 /* Default@2x.png in Resources */,
+				767DB28616C5CF1C009FD3E1 /* Default-568h@2x.png in Resources */,
+				767DB28916C5CF1C009FD3E1 /* MainStoryboard.storyboard in Resources */,
+				769BC2F116CCC80D002B8E57 /* BG1.png in Resources */,
+				769BC31516CCFFED002B8E57 /* Calculate1.png in Resources */,
+				769BC31616CCFFED002B8E57 /* Calculate2.png in Resources */,
+				769BC31716CCFFED002B8E57 /* Calculate3.png in Resources */,
+				769BC31816CCFFED002B8E57 /* Pistol1.png in Resources */,
+				769BC31916CCFFED002B8E57 /* Pistol2.png in Resources */,
+				769BC31A16CCFFED002B8E57 /* Pistol3.png in Resources */,
+				769BC31B16CCFFED002B8E57 /* Rifle1.png in Resources */,
+				769BC31C16CCFFED002B8E57 /* Rifle2.png in Resources */,
+				769BC31D16CCFFED002B8E57 /* Rifle3.png in Resources */,
+				769BC31E16CCFFED002B8E57 /* Shotgun1.png in Resources */,
+				769BC31F16CCFFED002B8E57 /* Shotgun2.png in Resources */,
+				769BC32016CCFFED002B8E57 /* Shotgun3.png in Resources */,
+				769BC32516CD0259002B8E57 /* SecondViewController.xib in Resources */,
+				769BC32716CD04C6002B8E57 /* XB.png in Resources */,
+				769BC32916CD04CE002B8E57 /* IB.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		767DB26716C5CF1C009FD3E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767DB27C16C5CF1C009FD3E1 /* main.m in Sources */,
+				767DB28016C5CF1C009FD3E1 /* AppDelegate.m in Sources */,
+				767DB2AA16C5D0B7009FD3E1 /* ViewController.m in Sources */,
+				769BC2FF16CCC86A002B8E57 /* pistolWeapon.m in Sources */,
+				769BC30016CCC86F002B8E57 /* rifleWeapon.m in Sources */,
+				769BC30116CCC871002B8E57 /* shotgunWeapon.m in Sources */,
+				769BC30216CCC873002B8E57 /* weaponBase.m in Sources */,
+				769BC30316CCC876002B8E57 /* weaponFactory.m in Sources */,
+				769BC32416CD0259002B8E57 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		767DB27816C5CF1C009FD3E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767DB27916C5CF1C009FD3E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		767DB28716C5CF1C009FD3E1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767DB28816C5CF1C009FD3E1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		767DB28D16C5CF1C009FD3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		767DB28E16C5CF1C009FD3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		767DB29016C5CF1C009FD3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOC2/AOC2-Prefix.pch";
+				INFOPLIST_FILE = "AOC2/AOC2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		767DB29116C5CF1C009FD3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOC2/AOC2-Prefix.pch";
+				INFOPLIST_FILE = "AOC2/AOC2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		767DB26516C5CF1C009FD3E1 /* Build configuration list for PBXProject "AOC2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767DB28D16C5CF1C009FD3E1 /* Debug */,
+				767DB28E16C5CF1C009FD3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767DB28F16C5CF1C009FD3E1 /* Build configuration list for PBXNativeTarget "AOC2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767DB29016C5CF1C009FD3E1 /* Debug */,
+				767DB29116C5CF1C009FD3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 767DB26216C5CF1C009FD3E1 /* Project object */;
+}
